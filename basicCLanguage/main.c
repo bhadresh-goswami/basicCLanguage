@@ -10,6 +10,13 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    int a;
     printf("Hi!\n");
+    printf("Enter a:\t");
+    scanf("%d",&a);
+    
+    
+    printf("\na++ is %d",a++);
+    
     return 0;
 }
